@@ -1,0 +1,15 @@
+{
+  "name": "super-tape",
+  "version": "0.1.0",
+  "description": "A tap-producing test harness, inspired by tape, but with more robust features for integration testing.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekytime/super-tape.git"
+  },
+  "author": "Chris Jaynes <chris@jaynes.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekytime/super-tape/issues"
+  },
+  "homepage": "https://github.com/geekytime/super-tape#readme"
+}
