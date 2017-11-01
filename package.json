@@ -11,5 +11,21 @@
   "bugs": {
     "url": "https://github.com/geekytime/super-tape/issues"
   },
-  "homepage": "https://github.com/geekytime/super-tape#readme"
+  "homepage": "https://github.com/geekytime/super-tape#readme",
+  "main": "lib/clear-tape.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node ./test/clear-tape-test.js && node ./test/only-match-test.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "browser-stdout": "^1.3.0",
+    "chalk": "^2.1.0",
+    "deep-equal": "^1.0.1",
+    "diff": "^3.3.1",
+    "ramda": "^0.24.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2"
+  }
 }
